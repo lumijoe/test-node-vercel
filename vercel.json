@@ -1,5 +1,4 @@
 {
-    
     "version": 2,
     "builds": [
       {
@@ -7,6 +6,9 @@
         "use": "@vercel/node"
       }
     ],
+    "engines": {
+      "node": "14.x"
+    },
     "routes": [
       {
         "src": "/(.*)",
